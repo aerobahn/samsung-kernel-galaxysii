@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.35.13
-# Tue Jun 28 13:43:44 2011
+# Thu Jun 30 13:34:09 2011
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -980,7 +980,7 @@ CONFIG_EEPROM_AT24=y
 # CONFIG_EEPROM_93CX6 is not set
 # CONFIG_IWMC3200TOP is not set
 CONFIG_PN544=y
-CONFIG_GENERIC_BLN=y
+# CONFIG_GENERIC_BLN is not set
 CONFIG_HAVE_IDE=y
 # CONFIG_IDE is not set
 

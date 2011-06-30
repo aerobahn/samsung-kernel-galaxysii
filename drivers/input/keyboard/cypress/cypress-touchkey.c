@@ -477,6 +477,7 @@ static int melfas_touchkey_early_suspend(struct early_suspend *h)
 	return 0;
 }
 
+#ifdef CONFIG_GENERIC_BLN
 static void melfas_enable_touchkey_backlights(void) {
 	uint8_t val = 1;
 
@@ -494,6 +495,7 @@ static struct bln_implementation cypress_touchkey_bln = {
 	.enable = melfas_enable_touchkey_backlights,
 	.disable = melfas_disable_touchkey_backlights,
 };
+#endif
 
 static int melfas_touchkey_late_resume(struct early_suspend *h)
 {

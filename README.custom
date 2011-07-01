@@ -2,18 +2,21 @@
 
 Features:
     Latest 2.6.35.x base (current: .13).
-    Automated per tty task groups.
-    BacklightNotification.
+    Automated per tty task groups patch.
     Tweaked deadline I/O scheduler.
+    Interactive governor added.
     CIFS support.
-    Patch to address issue with second core forgetting min/max clock frequency.
+    Sleep of death patch.
+    ClockworkMod Recovery 4.0.0.5.
     Support for /system/etc/init.d scripts.
     "Insecure" mode (-> root).
 
 Credits:
-    Mike Galbraith (Automated per tty task groups)
+    Mike Galbraith (Automated per tty task groups patch)
     neldar and akent (BLN)
     supercurio (For making sources available on github)
     thalamus (Tweaked deadline I/O scheduler)
+    teamhacksung
+    netarchy
 
 renan-
